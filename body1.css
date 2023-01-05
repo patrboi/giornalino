@@ -15,7 +15,7 @@
 .titolo{font-size: 70px;font-weight: bold;display:block;color:#fff;top:0px;margin-left:270px;}
 .button{padding: 18px 28px;background: #ff8331;color:#fff;display:inline-block;border-radius:4px;}
   
-* media query è una tecnica css3 https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mobilefirst   */
+/* media query è una tecnica css3 https://www.w3schools.com/css/tryit.asp?filename=tryresponsive_mobilefirst   */
 @media(max-width: 768px) {
   .articolo{flex-wrap:wrap;}
   .img,
