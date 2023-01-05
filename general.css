@@ -21,3 +21,9 @@
  .mt-4{margin-bottom: 1px;margin-top: 50px;}
  .mt-5{margin-top: 1px;}
  .tw{color: #fff;}
+
+@media (max-width: 768px) {
+    .big-text{font-size: 40px;font-weight: bold;}
+  }
+
+  
