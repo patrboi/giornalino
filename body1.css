@@ -11,7 +11,7 @@
   padding-left: 0px;
   margin-left:0px;}
 
-.intro-text{text-transform:uppercase;font-size: 20px;font-weight: 900;color:#fff;/*display:block;padding-top:300px;padding-bottom:0px;margin-left:270px;*/}/* 900 è un'extrabold  font-size: 80%;*/
+.intro-text{text-transform:uppercase;font-size: 20px;font-weight: 900;color:#fff;display:block;padding-top:300px;padding-bottom:0px;margin-left:270px;}/* 900 è un'extrabold  font-size: 80%;*/
 .titolo{font-size: 70px;font-weight: bold;display:block;color:#fff;top:0px;margin-left:270px;}
 .button{padding: 18px 28px;background: #ff8331;color:#fff;display:inline-block;border-radius:4px;}
   
