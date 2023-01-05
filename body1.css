@@ -91,10 +91,10 @@
 .dot{width: 250px;height: 250px;background:#8C8;
   border-radius: 100%;line-height: 250px;text-align: center;
   margin-right: 40px;display: inline-block;margin-right: 40px;margin-bottom: 40px;}
-@media (max-width: 768px;) { /*Media query è una tecnica CSS introdotta in CSS3. Utilizza la regola @media per includere un blocco di proprietà CSS solo se una determinata condizione è vera*/
+@media (max-width: 768px) { /*Media query è una tecnica CSS introdotta in CSS3. Utilizza la regola @media per includere un blocco di proprietà CSS solo se una determinata condizione è vera*/
   .grid{flex-wrap: wrap;} 
-  .panel-blue,
-  .panel-blue_text,
+  .panel-blue{flex-wrap: wrap;} ,
+  .panel-blue_text{flex-wrap: wrap;} ,
   .dot,
   .dot img{width:100%;height: auto;} /*flex wrap: vai a capo*/
 }
