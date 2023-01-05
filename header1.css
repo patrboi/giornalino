@@ -5,6 +5,7 @@
     max-width: 1750px;flex-direction:row;height:55px;
     }
  .logo{width:70px;height: 70px;z-index:1;flex-direction:row;}
+.img-logo img {{width:100%;height: 100%;};
  .navbar{display:flex; flex-direction:row;width:100%;z-index: 0;}
 .link-navbar{flex-direction:row-reverse;color:green;}/* ciascun elemento occuopa solo la'ampiezza necessaria**/
 .link-navbar a{font-size: 17px;font-weight: bold;color:green;text-emphasis: extrabold;padding:15px;flex-direction:row-reverse;}   /*display:block;
