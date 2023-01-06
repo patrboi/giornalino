@@ -96,7 +96,7 @@
 }
 */
 .grid-col,
-panel-blue_text{width: 100%;color:#fff;flex-wrap:wrap;}
+.panel-blue_text{width: 100%;color:#fff;flex-wrap:wrap;}
 
 .footer {
 height: 250px;
