@@ -87,7 +87,7 @@
 @media (max-width: 768px) { /*Media query è una tecnica CSS introdotta in CSS3. Utilizza la regola @media per includere un blocco di proprietà CSS solo se una determinata condizione è vera*/
   .grid,
   .panel-blue{flex-wrap: wrap;}
-  .dot{width: 150px;height: 150px;margin-right: 20px;margin-bottom: 20px;}
+  .dot{width: 180px;height: 180px;margin-right: 20px;margin-bottom: 20px;}
   
 }
 /*@media (max-width: 768px) { Media query è una tecnica CSS introdotta in CSS3. Utilizza la regola @media per includere un blocco di proprietà CSS solo se una determinata condizione è vera
