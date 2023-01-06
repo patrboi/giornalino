@@ -53,12 +53,6 @@
   .img,
   .contenutoArticolo{width:100%;height: auto;} /*wrap: le colonne lunghe vanno a capo, l'h si adatta agli elementi che contiene */
 }
-@media(max-width: 768px) {
-  .bg-cover{flex-wrap: wrap;auto;}
-  .bg-cover__title,
-  .bg-cover__text{width: 100%;}
-  
-  }
   
 .panel-blue{display:flex;flex-direction:row;align-items: center;
   background:#4bb1e9;padding: 100px 30px;margin-bottom:0px;border-width: 0px;/* */
@@ -75,7 +69,7 @@
 .grid-col{width: 100%;color:#fff;flex-wrap: wrap;}
 
 @media (max-width: 768px) { /*Media query è una tecnica CSS introdotta in CSS3. Utilizza la regola @media per includere un blocco di proprietà CSS solo se una determinata condizione è vera*/
-  .grid{flex-wrap: wrap;} /*flex wrap: vai a capo*/
+  .grid{flex-wrap: wrap;width:100%;height: auto;} /*flex wrap: vai a capo*/
 }
 /*.grid{display: flex;max-width: 1352px;padding:0px 30px;margin:0px auto;}
 .grid-col{width: 100%;color:#fff;flex-wrap: wrap;}*/
@@ -92,11 +86,11 @@
   border-radius: 100%;line-height: 250px;text-align: center;
   margin-right: 40px;display: inline-block;margin-right: 40px;margin-bottom: 40px;}
 @media (max-width: 768px) { /*Media query è una tecnica CSS introdotta in CSS3. Utilizza la regola @media per includere un blocco di proprietà CSS solo se una determinata condizione è vera*/
-  .grid{flex-wrap: wrap;} 
-  .panel-blue{flex-wrap: wrap;} ,
-  .panel-blue_text{flex-wrap: wrap;} ,
+  .grid{} 
+  .panel-blue,
+  .panel-blue_text,
   .dot,
-  .dot img{width:100%;height: auto;} /*flex wrap: vai a capo*/
+  .dot img{flex-wrap: wrap;width:100%;height: auto;} /*flex wrap: vai a capo*/
 }
 
 .footer {
