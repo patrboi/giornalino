@@ -68,9 +68,7 @@
 .grid{display: flex;max-width: 1352px;padding:0px 30px;margin:0px auto;}
 .grid-col{width: 100%;color:#fff;flex-wrap: wrap;}
 
-@media (max-width: 768px) { /*Media query è una tecnica CSS introdotta in CSS3. Utilizza la regola @media per includere un blocco di proprietà CSS solo se una determinata condizione è vera*/
-  .grid{flex-wrap: wrap;width:100%;height: auto;} /*flex wrap: vai a capo*/
-}
+
 /*.grid{display: flex;max-width: 1352px;padding:0px 30px;margin:0px auto;}
 .grid-col{width: 100%;color:#fff;flex-wrap: wrap;}*/
 
@@ -86,13 +84,16 @@
   border-radius: 100%;line-height: 250px;text-align: center;
   margin-right: 40px;display: inline-block;margin-right: 40px;margin-bottom: 40px;}
 @media (max-width: 768px) { /*Media query è una tecnica CSS introdotta in CSS3. Utilizza la regola @media per includere un blocco di proprietà CSS solo se una determinata condizione è vera*/
+  .grid{flex-wrap: wrap;width:100%;height: auto;} /*flex wrap: vai a capo*/
+}
+/*@media (max-width: 768px) { /*Media query è una tecnica CSS introdotta in CSS3. Utilizza la regola @media per includere un blocco di proprietà CSS solo se una determinata condizione è vera*/
   .grid,
   .panel-blue,
   .panel-blue_text,
   .dot,
   .dot img{flex-wrap: wrap;width:100%;height: auto;} /*flex wrap: vai a capo*/
 }
-
+/*
 .footer {
 height: 250px;
 font: bold 114% Arial,sans-serif;
