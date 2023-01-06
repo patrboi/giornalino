@@ -92,7 +92,7 @@
   .panel-blue,
   .panel-blue_text,
   .dot,
-  .dot img{flex-wrap: wrap;width:100%;height: auto;} /*flex wrap: vai a capo*/
+  .dot img{flex-wrap: wrap;width:100%;height: auto;} flex wrap: vai a capo
 }
 */
 .footer {
