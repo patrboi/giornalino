@@ -95,7 +95,8 @@
   .dot img{flex-wrap: wrap;width:100%;height: auto;} flex wrap: vai a capo
 }
 */
-.grid-col{width: 100%;color:#fff;flex-wrap:wrap;}
+.grid-col,
+panel-blue_text{width: 100%;color:#fff;flex-wrap:wrap;}
 
 .footer {
 height: 250px;
