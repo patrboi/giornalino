@@ -95,6 +95,9 @@
   .dot img{flex-wrap: wrap;width:100%;height: auto;} flex wrap: vai a capo
 }
 */
+.grid-col,
+{width: 100%;color:#fff;flex-wrap: wrap;}
+
 .footer {
 height: 250px;
 font: bold 114% Arial,sans-serif;
