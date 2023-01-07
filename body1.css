@@ -1,5 +1,5 @@
 .vetrina{
-  background:url("medita2.png") no-repeat center center; /*linear-gradient(0deg, rgba(174,203,209,.1), rgba(174,203,209,0.6) 70.71%)*/
+  background:url("vetrina.jpeg") no-repeat center center; /*linear-gradient(0deg, rgba(174,203,209,.1), rgba(174,203,209,0.6) 70.71%)*/
   background-size: cover;
   height:100vh;display: flex; width: 100%; align-items: center;/*vh:vertical height*/
 
